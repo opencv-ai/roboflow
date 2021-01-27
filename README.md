@@ -14,7 +14,9 @@ Roboflow allows you to [upload](#Upload), [annotate](#Annotate), [organize](#Org
 ## Upload
 The first step is to upload images or videos. [Roboflow's Web UI](https://docs.roboflow.com/adding-data) lets you effortlessly upload your images. It's as simple as dragging and dropping.
 
-![](./images/add_images.gif)
+<p align="center">
+  <img src="./images/add_images.gif">
+</p>
 
 #### What if I have annotations?
 - If you have annotations, you can upload those by dragging and dropping along with your images! We [support most annotation formats](https://roboflow.com/formats), including COCO JSON, Pascal VOC XML, Tensorflow TFRecord,  SuperAnnotate, YOLO Darknet, Google Cloud, and more. If you find that we don't support yours, let us know!
@@ -29,7 +31,9 @@ Yes! We encourage everyone to use the Web UI, as this has maximal functionality.
 ## Annotate
 Once you upload your images (or sample images from your video), you're ready to annotate. You can [annotate directly in our platform](https://docs.roboflow.com/annotate)!
 
-![](./images/annotate.gif)
+<p align="center">
+  <img src="./images/annotate.gif">
+</p>
 
 You can annotate images upon upload, but you don't have to! We recommend the following workflow:
 - Annotate as many images as you reasonably can on upload, then be sure to hit "Finish Upload" when you're done. You don't have to do all of them right now! However, don't annotate some and walk away without finishing your upload -- you don't want your upload to time out.
@@ -44,16 +48,17 @@ There are also steps that are important to keep in mind, like splitting data int
 
 - Roboflow's [image preprocessing](https://docs.roboflow.com/image-transformations/image-preprocessing) steps prepare your images for modeling and can reduce the time it takes to build your model and increase your model's overall performance.
 <p align="center">
-![](./images/preprocessing.png)
+  <img src="./images/preprocessing.png">
 </p>
+
 - Roboflow's [image augmentation](https://docs.roboflow.com/image-transformations/image-augmentation) steps are designed to improve your model's ability to generalize well to unseen images.
 <p align="center">
-![](./images/augmentation.png)
+  <img src="./images/augmentation.png">
 </p>
 Each preprocessing and augmentation technique can be included in a couple of clicks, and most have guidance to help you understand when you might want to apply that technique.
 
 <p align="center">
-  ![](./images/random_rotate.png)
+  <img src="./images/random_rotate.png">
 </p>
 
 ## Train
