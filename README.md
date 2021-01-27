@@ -15,7 +15,7 @@ Roboflow allows you to [upload](#Upload), [annotate](#Annotate), [organize](#Org
 The first step is to upload images or videos. [Roboflow's Web UI](https://docs.roboflow.com/adding-data) lets you effortlessly upload your images. It's as simple as dragging and dropping.
 
 <p align="center">
-  <img src="./images/add_images.gif">
+  <img alt="Dragging and dropping a dozen chess-related images into Roboflow's upload web user interface." src="./images/add_images.gif">
 </p>
 
 #### What if I have annotations?
@@ -32,7 +32,7 @@ Yes! We encourage everyone to use the Web UI, as this has maximal functionality.
 Once you upload your images (or sample images from your video), you're ready to annotate. You can [annotate directly in our platform](https://docs.roboflow.com/annotate)!
 
 <p align="center">
-  <img src="./images/annotate.gif">
+  <img alt="Creating bounding boxes around a variety of sea-themed images." src="./images/annotate.gif">
 </p>
 
 You can annotate images upon upload, but you don't have to! We recommend the following workflow:
@@ -48,17 +48,17 @@ There are also steps that are important to keep in mind, like splitting data int
 
 - Roboflow's [image preprocessing](https://docs.roboflow.com/image-transformations/image-preprocessing) steps prepare your images for modeling and can reduce the time it takes to build your model and increase your model's overall performance.
 <p align="center">
-  <img height="300" src="./images/preprocessing.png">
+  <img alt="A screen of 8 labeled jellyfish, each representing one preprocessing technique." height="300" src="./images/preprocessing.png">
 </p>
 
 - Roboflow's [image augmentation](https://docs.roboflow.com/image-transformations/image-augmentation) steps are designed to improve your model's ability to generalize well to unseen images.
 <p align="center">
-  <img height="525" src="./images/augmentation.png">
+  <img alt="A screen of 23 labeled jellyfish, each representing one augmentation technique." height="525" src="./images/augmentation.png">
 </p>
 Each preprocessing and augmentation technique can be included in a couple of clicks, and most have guidance to help you understand when you might want to apply that technique.
 
 <p align="center">
-  <img height="450" src="./images/random_rotate.png">
+  <img alt="Three copies of the same hard hat image, with two images rotated." height="450" src="./images/random_rotate.png">
 </p>
 
 ## Train
