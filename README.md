@@ -48,7 +48,7 @@ There are also steps that are important to keep in mind, like splitting data int
 
 - Roboflow's [image preprocessing](https://docs.roboflow.com/image-transformations/image-preprocessing) steps prepare your images for modeling and can reduce the time it takes to build your model and increase your model's overall performance.
 <p align="center">
-  <img height="350" src="./images/preprocessing.png">
+  <img height="300" src="./images/preprocessing.png">
 </p>
 
 - Roboflow's [image augmentation](https://docs.roboflow.com/image-transformations/image-augmentation) steps are designed to improve your model's ability to generalize well to unseen images.
