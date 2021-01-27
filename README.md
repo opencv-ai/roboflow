@@ -43,16 +43,18 @@ One of the most time-consuming aspects to computer vision problems is organizing
 There are also steps that are important to keep in mind, like splitting data into [training, validation, and testing sets](https://blog.roboflow.com/train-test-split/) or [identifying imbalanced classes that require attention](https://blog.roboflow.com/handling-unbalanced-classes/). If your team isn't formally trained in data science, these may be easy steps to accidentally skip! Roboflow is set up to ensure important steps like these aren't skipped.
 
 - Roboflow's [image preprocessing](https://docs.roboflow.com/image-transformations/image-preprocessing) steps prepare your images for modeling and can reduce the time it takes to build your model and increase your model's overall performance.
-
+<p align="center">
 ![](./images/preprocessing.png)
-
+</p>
 - Roboflow's [image augmentation](https://docs.roboflow.com/image-transformations/image-augmentation) steps are designed to improve your model's ability to generalize well to unseen images.
-
+<p align="center">
 ![](./images/augmentation.png)
-
+</p>
 Each preprocessing and augmentation technique can be included in a couple of clicks, and most have guidance to help you understand when you might want to apply that technique.
 
-![](./images/random_rotate.png)
+<p align="center">
+  ![](./images/random_rotate.png)
+</p>
 
 ## Train
 At this point, we'd like to train a model! [Roboflow Train](https://docs.roboflow.com/train) is our one-click [AutoML](https://en.wikipedia.org/wiki/Automated_machine_learning) service -- just click one button and kick things off!
