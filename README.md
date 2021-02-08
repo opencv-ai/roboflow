@@ -73,7 +73,7 @@ Once you've built a model, you can deploy your solution nearly anywhere you want
 - Do you want to use our [Inference API](http://infer.roboflow.com/)?
 - Deploy to your [iPhone? _Note: this is a video link_.](https://www.youtube.com/watch?v=kBn7Cd8Z8yE&feature=emb_title)
 - Deploy to an [OAK-D](https://blog.roboflow.com/luxonis-oak-d-custom-model/) or a [Jetson NX](https://blog.roboflow.com/deploy-yolov5-to-jetson-nx/)?
-- Something else? Check out the [Roboflow blog](https://blog.roboflow.com/) to see a variety of deployment-related , or reach out!
+- Something else? Check out the [Roboflow blog](https://blog.roboflow.com/) to see a variety of deployment-related posts... or reach out!
 
 ## That's it!
 Roboflow is designed with you, the user, in mind.
